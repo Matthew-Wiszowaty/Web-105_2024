@@ -17,14 +17,14 @@ body{
     background-size: cover;
 }
 #puppies{
-    background-image:url("../images/beach.jpg");
+    background-image:url("../images/aurora.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 #kittens{
-    background-image:url("../images/aurora.jpg");
+    background-image:url("../images/beach.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
