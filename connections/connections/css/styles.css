@@ -23,6 +23,13 @@ body{
     background-size: cover;
 }
 
+#ducks{
+    background-image:url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 #kittens{
     background-image:url("../images/beach.jpg");
     background-repeat: no-repeat;
