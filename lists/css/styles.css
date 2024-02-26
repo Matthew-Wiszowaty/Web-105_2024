@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(87, 145, 233); /* this is the font color*/
+}
+.container{
+    background: ivory;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+}
+h1,h2{
+    text-align: center;
+    color:rgb(87, 145, 233);
+}
+h3{
+    text-align: left;
+    color:rgb(87, 145, 233);
+}
+dt{
+    font-weight: bold;
+    color:royalblue
+}
