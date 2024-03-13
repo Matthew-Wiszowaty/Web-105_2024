@@ -16,7 +16,8 @@ h3{
 
 p{
     color: lightseagreen;
-    text-align: center;
+    text-align: left;
+    margin:10px;
 }
 ul{
     color: lightseagreen;

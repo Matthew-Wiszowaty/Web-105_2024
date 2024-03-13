@@ -12,11 +12,17 @@ h1,h2 {
     
 h3{
     color: lightcoral;
+    padding:10px;
 }
 
 p{
     color: lightcoral;
-    text-align: center;
+    text-align: left;
+    margin:20px;
+}
+ol{
+    color: lightcoral;
+    text-align: left;
 }
 ul{
     color: lightcoral;
