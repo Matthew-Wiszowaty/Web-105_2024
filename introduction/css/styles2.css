@@ -70,9 +70,6 @@ img{
     margin: 10px auto; 
     padding: 20px;
 }
-#float-left img{
-    float: left;
-}
 div {
     min-height: 250px;
     overflow: auto;
