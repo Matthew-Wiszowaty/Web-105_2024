@@ -54,15 +54,15 @@ nav a:hover{
     display: flex;
 }
 .column{
-    flex: 50%;
+    flex: 33%;
     padding: 10px;
     text-align:center;
 }
 img{
-    width: 30%;
+    width: 80%;
     display:block;
     margin: 10px auto; 
-    padding: 20px;
+    padding: 10px;
 }
 #float-left img{
     float: left;
