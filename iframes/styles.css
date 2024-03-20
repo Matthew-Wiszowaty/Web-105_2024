@@ -1,0 +1,9 @@
+iframe {
+    width:70%;
+    height: 400px;
+    display:block;
+    margin: 20px auto;
+}
+h1,h2{
+    text-align:center;
+}
