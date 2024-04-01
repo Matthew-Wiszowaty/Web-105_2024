@@ -1,0 +1,17 @@
+body{
+    background: rgb(0,167,255);
+    background: radial-gradient(circle, rgba(0,167,255,1) 0%, rgba(0,36,55,1) 100%);
+    text-shadow: 6px 4px 3px #FF00EE;
+}
+#columns{
+    column-count: 3;
+    column-gap: 5px;
+}
+
+#move{
+    background: gold;
+    width:70px;
+    height: 70px;
+    transform: scale(3) rotate(20deg) translateX(40px) translateY(13px) skewX(10deg) skewY(30deg);
+    box-shadow: 60px 20px 40px 20px #FF1755;
+}
