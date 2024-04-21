@@ -195,6 +195,18 @@ nav a {
     border-radius: 25px;
     /* Adjust the value for the desired roundness */
 }
+#gridpage {
+    display: grid; /* this creates a grid layout */
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 2px;
+    background-color: var(--secondary);
+    padding: 2px;
+}
+
+#periphgrid figure > img{
+    width:90%;
+}
 
 /* Remove underlines on hover and active state */
 nav a:hover,
