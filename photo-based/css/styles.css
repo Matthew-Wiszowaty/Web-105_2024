@@ -245,6 +245,20 @@ ul li{
     margin: 10px;
     text-align: left;
 }
+#mecoding .row p{
+    font-size:large;
+    margin: 10px;
+    text-align: left;
+}
+#mecoding img{
+    width:100%;
+}
+#centering h2{
+    text-align: center;
+}
+#centering{
+    width:100%;
+}
 
 /* Remove underlines on hover and active state */
 nav a:hover,
