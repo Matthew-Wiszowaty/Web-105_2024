@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Albums</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+        <h1>My Favorite Albums</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="gridpage.html">Grids</a>
+            <a href="#">Songs</a>
+            <a href="#">link 4</a>
+            <a href="#">link 5</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>My Favorite Albums</h2>
+        <p>These are some of my favorite singles and albums at the moment</p>
+        <div class="grid-container" id="albums">
+            <div>
+                <figure>
+                    <img src="../images/joost.png" 
+                    alt="joost"
+                    onclick='change("../images/joost.png")'>
+                    <figcaption>Artist - Joost</figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="../images/Kardashev.png" alt="Kardashev"
+                    onclick='change("../images/Kardashev.png")'>
+                    <figcaption>Artist - Kardashev</figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="../images/o-rodrigo.png" alt="Olivia Rodrigo"
+                    onclick='change("../images/o-rodrigo.png")'>
+                    <figcaption> Artist - Olivia Rodrigo</figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="../images/romance-planet.png" alt="Romance Planet"
+                    onclick='change("../images/romance-planet.png")'>
+                    <figcaption>Artist - Romance Planet</figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="../images/your-eyes-68-1.png" alt="68+1"
+                    onclick='change("../images/your-eyes-68-1.png")'>
+                    <figcaption> Artist - 68+1</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div id="main-image">
+            <img src="../images/your-eyes-68-1.png" id="large">
+        </div>
+    </div>
+    <footer class="container">
+        <p>&copy; Matthew Wiszowaty 2024</p>
+    </footer>
+    <script src="../script.js"></script>
+</body>
