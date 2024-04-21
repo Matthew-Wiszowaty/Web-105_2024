@@ -155,6 +155,10 @@ p{
 h1, h2, h3, h4{
     font-family: "DM Serif Display", serif;
 }
+h3{
+    text-align: center;
+    font-weight: bold;
+}
 h2{
     text-align:left;
     font-size:large;
@@ -164,6 +168,26 @@ h1{
     text-align: center;
     font-size:x-large;
     font-weight:bold;
+}
+#cyclepics{
+    display: grid; 
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    background-color: var(--secondary);
+    padding: 2px;
+}
+#cyclepics img{
+    width: 100%;
+}
+#scenicpics{
+    display: grid; 
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    background-color: var(--secondary);
+    padding: 2px;
+}
+#scenicpics img{
+    width: 100%;
 }
 
 .grid-container {
@@ -209,6 +233,17 @@ nav a {
 }
 ul li{
     margin: 10px;
+}
+#hobbi .row{
+    align-content: center;
+}
+#hobbi .row img{
+    width:80%;
+}
+#hobbi .row p{
+    font-size:large;
+    margin: 10px;
+    text-align: left;
 }
 
 /* Remove underlines on hover and active state */
