@@ -173,7 +173,6 @@ h1{
     display: grid; 
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
-    background-color: var(--secondary);
     padding: 2px;
 }
 #cyclepics img{
@@ -183,7 +182,6 @@ h1{
     display: grid; 
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    background-color: var(--secondary);
     padding: 2px;
 }
 #scenicpics img{
@@ -195,12 +193,11 @@ h1{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     gap: 2px;
-    background-color: var(--secondary);
     padding: 2px;
 }
 
 .grid-container > div {
-    background-color: black;
+    background-color: var(--dark-text);
     text-align: center;
     padding: 2px 0;
     cursor: pointer;
@@ -209,9 +206,12 @@ h1{
 .grid-container > div > img{
     width: 90%;
 }
-iframe{
-    width: 100%;
-    height: 300px;
+.h2, .h1{
+    text-align: center;
+    font-weight: bold;
+}
+.h3{
+    font-weight: bold;
 }
 nav a {
     display: inline-block;
@@ -227,7 +227,6 @@ nav a {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     gap: 2px;
-    background-color: var(--secondary);
     padding: 2px;
 }
 
@@ -263,6 +262,13 @@ ul li{
     width:100%;
 }
 
+.container-fluid{
+    border: var(--secondary) 2px solid;
+    color: var(--dark-text);
+    text-align: center;
+    min-height:75px;
+    padding-top: 10px;
+}
 /* Remove underlines on hover and active state */
 nav a:hover,
 nav a:active {
