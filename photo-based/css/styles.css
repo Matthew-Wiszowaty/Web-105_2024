@@ -29,9 +29,9 @@ primary:F2DAC4
 */
 
 :root{
-    --dark-text:#26071E;
-    --secondary:#412973;
-    --primary:#F2DAC4;
+    --dark-text: black;
+    --secondary: black;
+    --primary:slategrey;
 
 }
 
@@ -90,11 +90,11 @@ body{
     color: var(--dark-text);
     font-size:medium;
     padding: 10px;
+	padding-top:70px;
     line-height: 1.5;
 }
 div, header, footer, nav, main, aside{
     overflow: auto;
-    margin: 10px;
     padding: 10px;
 }
 
@@ -105,6 +105,7 @@ main{
 footer{
     clear:both;
 }
+/*
 nav a{
     text-decoration: none;
     color: var(--dark-text);
@@ -113,6 +114,7 @@ nav a{
     border-radius: 5px;
 
 }
+*/
 .container{
     width: 80%;
     margin: 10px auto;
@@ -121,6 +123,7 @@ nav a{
 }
 #albums{
     grid-template-columns: auto auto auto auto auto;
+    background: var(--secondary);
 }
 #large{
     width: 50%;
@@ -190,14 +193,14 @@ h1{
 
 .grid-container {
     display: grid; /* this creates a grid layout */
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto;
     gap: 2px;
     padding: 2px;
 }
 
 .grid-container > div {
-    background-color: var(--dark-text);
+    background-color: var(--secondary);
     text-align: center;
     padding: 2px 0;
     cursor: pointer;
@@ -213,6 +216,7 @@ h1{
 .h3{
     font-weight: bold;
 }
+/*
 nav a {
     display: inline-block;
     padding: 10px 20px;
@@ -220,14 +224,29 @@ nav a {
     color: white;
     text-decoration: none;
     border-radius: 25px;
-    /* Adjust the value for the desired roundness */
 }
+*/
 #gridpage {
     display: grid; /* this creates a grid layout */
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     gap: 2px;
     padding: 2px;
+}
+#demo{
+    width:50%;
+}
+#figbg{
+    background-color: black;
+    padding:5px;
+    min-height: 550px;
+    figcaption{
+        color: white;
+        font-size:large;
+    }
+    img{
+        width: 300px;
+    }
 }
 
 #periphgrid figure > img{
@@ -239,12 +258,15 @@ ul li{
 #hobbi .row{
     align-content: center;
 }
-#hobbi .row img{
-    width:80%;
+.row{
+    margin:0px;
 }
-#hobbi .row p{
+#hobbi .row img{
+    width:70%;
+}
+#hobbi .col p{
     font-size:large;
-    margin: 10px;
+    margin: 5px;
     text-align: left;
 }
 #mecoding .row p{
@@ -266,8 +288,18 @@ ul li{
     border: var(--secondary) 2px solid;
     color: var(--dark-text);
     text-align: center;
-    min-height:75px;
-    padding-top: 10px;
+    padding: 10px;
+}
+#footer{
+    border:none;
+    padding:0px;
+    text-align: left;
+}
+.navbar{
+    height:60px;
+}
+.bg-purple{
+    background: var(--secondary);
 }
 /* Remove underlines on hover and active state */
 nav a:hover,
