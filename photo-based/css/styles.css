@@ -233,9 +233,7 @@ nav a {
     gap: 2px;
     padding: 2px;
 }
-#demo{
-    width:50%;
-}
+
 #figbg{
     background-color: black;
     padding:5px;
@@ -247,6 +245,9 @@ nav a {
     img{
         width: 300px;
     }
+}
+#carotext{
+    width:50%;
 }
 
 #periphgrid figure > img{
